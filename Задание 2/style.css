@@ -1,0 +1,51 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.common {
+    display: block;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.common__text {
+    font-size: 20px;
+    line-height: 120%;
+    font-family: sans-serif;
+    max-width: 400px;
+    text-align: justify;
+}
+
+p.common__text {
+    margin-bottom: 20px;
+}
+
+li.common__text {
+    margin-left: 20px;   
+}
+
+/* .getdada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.getdada__button{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 400px;
+    height: 30PX;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(16, 108, 247);
+    border: 1px solid black; 
+}
+
+.getdada__button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  rgb(77, 166, 238);
+    transition: ease 0.5s;
+}
+

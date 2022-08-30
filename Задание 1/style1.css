@@ -1,0 +1,27 @@
+
+    .centration {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+.icon_1 {
+   
+background: url('./icon_1.svg') center no-repeat;
+width: 200px;
+height: 100px;
+background-size: 100px;
+}
+
+.icon_2 {
+   
+    background: url('./icon_2.svg') center no-repeat;
+    width: 200px;
+    height: 100px;
+    background-size: 100px;
+    }
+
+.light:hover {
+    cursor: pointer;
+}
